@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header secton starts here............. */
+header {
+    width: 80%;
+    margin: 70px auto;
+    /* border: 2px solid red; */
+}
+
+/* header secton ends here............. */
+
+/* navbar seciton starts here.......... */
+.navbar-coontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-logo {}
+
+.navbar-title {
+    text-align: right;
+    font-size: 2.2rem;
+    position: absolute;
+    left: 60px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links>li {
+    list-style: none;
+}
+
+.navbar-links>li>a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.navbar-btn {
+    background-color: rgb(199, 145, 74);
+    padding: 20px 30px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+}
+
+/* navbar seciton ends here.......... */
+
+/* banner section starts here............... */
+.banner-container {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 100px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.banner-describtion {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(218, 212, 212);
+    margin: 20px 0;
+}
+
+input {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
+.banner-btn {
+    width: 15%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(199, 145, 74);
+}
+
+::placeholder {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* banner section ends here............... */
+
+/* main and section starts here........ */
+main section {
+    width: 80%;
+    margin: 70px auto;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+
+/* main and section ends here........ */
+/* legal section starts here........... */
+.legal-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(39, 24, 24);
+    margin-bottom: 20px;
+}
+
+.legal-describtion {
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(48, 45, 45);
+}
+
+/* legal section ends here........... */
+
+/* legal card section starts here............. */
+.legal-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.icon-logo {
+    margin: 20px 0;
+}
+
+.legal-card-1,
+.legal-card-3 {
+    border-bottom: 1px solid rgba(190, 190, 190, 0.671);
+    padding: 50px 50px;
+
+}
+
+.legal-card-2 {
+    border: 1px solid rgba(190, 190, 190, 0.671);
+    padding: 50px 50px;
+    background-image: linear-gradient(180deg, rgba(211, 205, 205, 0.253) 0%, rgba(247, 245, 245, 0.041)100%);
+}
+
+.legal-card-5 {
+    border-left: 1px solid rgba(190, 190, 190, 0.671);
+    border-right: 1px solid rgba(190, 190, 190, 0.671);
+    padding: 50px 50px;
+}
+
+.legal-card-4,
+.legal-card-6 {
+    padding: 50px 50px;
+}
+
+.legal-describtion {
+    color: rgba(80, 78, 78, 0.952);
+}
+
+/* legal card section ends here............. */
+
+/* client section starts here............ */
+.banner-client {
+    background-image: linear-gradient(180deg, rgba(26, 25, 25, 0.863)30%, rgba(0, 0, 0, 0.651)100%), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 150px;
+    color: white;
+}
+
+.imran {
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+/* client section ends here............ */
+
+
+/* appliction card section starts here............. */
+.appliction-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appliction-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.application-card{
+    width: 90%;
+    background-color: rgba(247, 238, 238, 0.788);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.appliction-img {
+    width: 50%;
+
+    
+}
+.appliction-img >img{
+    width: 70%;
+    
+}
+.card-title span{
+    position: relative;
+    right: -80px;
+}
+/* appliction card section ends here............. */
+
+/* adderss card starts here................ */
+.contact-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.address-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.address-card{
+    background-color: rgb(238, 234, 234);
+    padding: 30px 40px;
+    line-height: 30px;
+}
+#add-card-1{
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#add-card-2{
+    border-bottom: 1px solid gray;
+}
+#add-card-3{
+    border-right: 1px solid gray;
+}
+
+.form-container input, textarea{
+    width: 100%;
+    background-color: rgba(231, 229, 229, 0.61);
+    margin-bottom: 20px;
+    border: none;
+    padding: 25px 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.send-btn{
+    width: 100%;
+    background-color:  rgb(199, 145, 74);
+    border: none;
+    padding: 25px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* adderss card ends here................ */
+
+/* footer secton starts here............. */
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+footer{
+    height: 60%;
+    background-color: black;
+    padding: 70px 20px;
+}
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-title{
+    color: white;
+    margin-bottom: 25px;
+}
+.footer-des{
+    color: white;
+    margin-top: 30px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-links a{
+    color: rgb(201, 196, 196);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.contact p{
+    color: white;
+}
+.subscribe p{
+    color: white;
+}
+.input-field{
+    position: relative;
+
+}
+.input-field input{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.input-btn{
+    background-color: rgb(199, 145, 74);
+    padding: 20px;
+    width: 80px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    top: 0px;
+    right: -65px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* footer secton ends here............. */
